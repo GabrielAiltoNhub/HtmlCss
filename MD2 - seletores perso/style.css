@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/*Site judiado em Biel. Ave maria...*/
+
+body{
+    background-color: #d0b465;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#principal-text{
+    text-align: center;
+    color: #2d2817 ;
+}
+
+.basic{
+    color: red;
+}
+
+.pleno{
+    color: blue;
+}
+
+.senior{
+    color: rebeccapurple;
+}
+

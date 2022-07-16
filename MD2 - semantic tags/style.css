@@ -1,0 +1,25 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap');
+
+
+body{ 
+    background-image: linear-gradient(to right,  #7ec6d6, #47acd1);
+    background-attachment: fixed;
+    
+}
+
+#H{
+    text-align: center;
+    font-family: 'Cormorant SC', serif;
+    color: white;
+}
+
+section{
+    width: 500px;
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 2px 15px #2a677cc9;
+    margin: auto;
+}

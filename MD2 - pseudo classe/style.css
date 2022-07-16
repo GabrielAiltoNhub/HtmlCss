@@ -1,0 +1,35 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    font: normal 1em Arial;
+}
+
+#principal-text{
+    font-family: 'Open Sans', sans-serif;
+    width: 300px;
+    padding: 10px;
+    border: 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+div:hover{
+    color: aqua;
+    font-weight: bold;
+}
+
+div:hover > p{
+    display: block;
+    color: black;
+    background-color: aqua;
+    width: 100px;
+    padding: 10px;
+    border: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+div > p {
+    display: none;
+}
