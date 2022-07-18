@@ -37,7 +37,7 @@ body{
 
 header{  
     min-height: 150px; 
-    background-color: var(--cor4);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor4));
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     padding-top: 40px;
@@ -188,7 +188,7 @@ main img.pequena{
 }
 
 
-main h2 {
+main h2 {  
     font-family: var(--fontidroid);
     color: var(--cor3);
     font-weight: normal;
