@@ -16,8 +16,49 @@ header{
     
 }
 
-header h1{
+header h1 {
     padding-top: 50px;
     font-variant: small-caps;
 }
 
+header p {
+    padding-bottom: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+.normal-text {
+    background: white;
+}
+
+.img-text{
+    background: #484747;
+    color: white;
+}
+
+.img-text > p {
+    width: 400px;
+    background: rgb(86, 82, 82);
+
+}
+
+footer{
+    padding: 10px;
+    background: #484747;
+    text-align: center;
+}
